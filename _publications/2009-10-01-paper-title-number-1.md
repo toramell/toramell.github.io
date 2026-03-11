@@ -1,14 +1,22 @@
 ---
-title: "Paper Title Number 1"
+title: "ランダムな通信遅延を考慮する強化学習による古田の振子の遠隔制御"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+category: conferences
+permalink: /publication/2025-05-21-sci25-furuta
+excerpt: 'ネットワーク化制御システムにおけるランダムな通信遅延が制御性能に与える影響を解析し、遅延の存在を学習プロセスに組み込むことでロバストな制御を実現する強化学習手法を提案しました。'
+date: 2025-05-21
+venue: '第69回システム制御情報学会研究発表講演会 (SCI&apos;25)'
+paperurl: 'https://www.jstage.jst.go.jp/article/sci/SCI25/0/SCI25_650/_article/-char/ja/'
+citation: '虎本 裕紀, 細江 陽平, 萩原 朋道. (2025). &quot;ランダムな通信遅延を考慮する強化学習による古田の振子の遠隔制御.&quot; <i>第69回システム制御情報学会研究発表講演会講演論文集</i>, 650-655.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+## 概要
+本研究では、通信ネットワークを介して制御を行う**ネットワーク化制御システム (Networked Control Systems: NCS)** を対象とし、強化学習を用いた制御器設計における通信遅延の影響を調査しました。
+
+1.  **問題設定:** 制御対象に回転型倒立振子（古田の振子）を用い、センサーデータと制御入力の両方にランダムな通信遅延が発生する過酷な通信環境を想定しました。
+2.  **提案手法:** 強化学習の訓練フェーズにおいて、遅延の統計的な性質（確率分布）を考慮した学習を行うことで、遅延に対して高いロバスト性を持つポリシを構築しました。
+3.  **検証:** 数値シミュレーションを通じて、遅延を考慮しない従来の学習手法と比較し、提案手法が不安定な平衡点付近での維持性能を大幅に向上させることを示しました。
+
+## 研究の意義 (DC1アピール用)
+* **理論的裏付け:** 単なる「AIの適用」に留まらず、制御理論における重要な課題である「遅延」にフォーカスしており、システム制御の専門知識を有していることを示しています。
+* **応用範囲の広さ:** 本研究で得られた「遅延を考慮した強化学習」の知見は、遠隔操作ロボットやドローンのテレオペレーションなど、現在のVLAモデル研究におけるリアルタイム性の確保にも直結する技術です。
