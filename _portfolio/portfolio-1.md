@@ -12,8 +12,8 @@ collection: portfolio
 ## 技術スタックとアーキテクチャ
 本システムは、推論コストとリアルタイム性のバランスを取るため、以下の階層型構成を採用しています。
 
-1.  **High-level (VLM/VLA):** * **Google Gemini API / OpenClaw:** 周囲の状況（画像）と言語指示から、セマンティックな経路計画を生成。
-    * **環境:** Ubuntu 24.04 (Ryzen 5 5600, 32GB RAM) 上で Docker コンテナを用いた開発環境を構築。
+1.  **High-level (VLM/VLA):** * **Google Gemini API / Qwen3.5:** 周囲の状況（画像）と言語指示から、セマンティックな経路計画を生成。
+    * **環境:** Ubuntu 22.04 (6000ada) 上で Docker コンテナを用いた開発環境を構築。
 2.  **Low-level (Control Theory):**
     * **MPPI (Model Predictive Path Integral):** 高精度な軌道追従と、局所的な動的障害物の回避。
     * **PX4 / Gazebo:** ドローンのフライトコントローラとの連携および物理シミュレーション。
