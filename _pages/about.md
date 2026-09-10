@@ -24,7 +24,6 @@ redirect_from:
 * **2026.09:** [制御理論若手合宿2026](https://riron-gasshuku.sice-ctrl.jp/index.html/japan/home/2026)で口頭発表を行いました
 * **2026.08:** 博士後期課程の入学試験に合格しました
 * **2026.07:** SICEfESのポジションペーパーが採択されました
-* **2026.02:** 博士後期課程への進学が内定しました
 * **2025.12〜:** OMRON SINIC Xにてインターンシップに参加しました
 
 ## Affiliations
