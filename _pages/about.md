@@ -21,10 +21,15 @@ redirect_from:
 * **階層型制御アーキテクチャ:** VLMによる経路生成と、MPPIによる動的な障害物回避の統合
 
 ## News
+* **2026.09:** [SICE FES 2026](https://sicefes26.sice.jp/)でポジションペーパーを発表しました
 * **2026.09:** [制御理論若手合宿2026](https://riron-gasshuku.sice-ctrl.jp/index.html/japan/home/2026)で口頭発表を行いました
 * **2026.08:** 博士後期課程の入学試験に合格しました
-* **2026.07:** SICEfESのポジションペーパーが採択されました
+* **2026.07:** SICE FESのポジションペーパーが採択されました
 * **2025.12〜:** OMRON SINIC Xにてインターンシップに参加しました
+
+## Teaching & Service
+* **2026.09:** [エレクトロニクスサマーキャンプ](https://www.s-ee.t.kyoto-u.ac.jp/ja/summercamp)のTAを務めました
+* **2025年度前期:** 京都大学工学部 電気電子工学科「電気電子工学実験」のTAを務めました
 
 ## Affiliations
 * **Kyoto University**, Graduate School of Engineering (Apr. 2025 - Present)
